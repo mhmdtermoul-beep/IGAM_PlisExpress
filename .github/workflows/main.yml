@@ -31,7 +31,7 @@ jobs:
 
       - name: Build APK with Flet
         run: |
-          flet build apk --name "IGAM_PlisExpress"
+          flet build apk
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
