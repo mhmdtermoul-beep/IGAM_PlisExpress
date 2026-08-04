@@ -36,7 +36,7 @@ jobs:
 
       - name: Build APK with Flet
         run: |
-          flet build apk --include-packages fpdf2 --icon assets/logo.png --yes
+          flet build apk --yes
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
