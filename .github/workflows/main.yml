@@ -24,8 +24,9 @@ jobs:
           sudo apt-get install -y build-essential ccache git libffi-dev libssl-dev python3-dev zip unzip zlib1g-dev openjdk-17-jdk ffmpeg libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev libswscale-dev libavformat-dev libavcodec-dev
           pip install --upgrade pip buildozer cython flet
 
-      - name: Build APK with Buildozer
-        run: buildozer -v android debug
+      - name: Accept Android SDK Licenses & Build APK
+        run: |
+          yes | buildozer -v android debug
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
