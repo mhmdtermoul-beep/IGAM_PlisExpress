@@ -26,9 +26,11 @@ requirements = python3,flet,fpdf2
 # Autorisations Android (Écriture pour enregistrer les PDF)
 android.permissions = WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
 
-# Ciblage Android
+# Ciblage Android stable
 android.api = 33
 android.minapi = 21
+android.sdk_build_tools_version = 33.0.0
+android.accept_licenses = True
 
 [buildozer]
 log_level = 2
