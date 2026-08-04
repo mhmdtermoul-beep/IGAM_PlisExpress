@@ -1,0 +1,17 @@
+[project]
+name = "igam_plisexpress"
+version = "0.1.0"
+description = "Application IGAM PlisExpress"
+dependencies = [
+    "flet",
+    "fpdf2",
+]
+
+[tool.flet]
+path = "main.py"
+
+[tool.flet.app]
+name = "IGAM PlisExpress"
+
+[tool.flet.android]
+icon = "assets/logo.png"
