@@ -281,9 +281,9 @@ def main(page: ft.Page):
     tabs = ft.Tabs(
         selected_index=0,
         tabs=[
-            ft.Tab(text="Préparation", content=t1),
-            ft.Tab(text="Saisie Pli", content=t2),
-            ft.Tab(text="Rapport PDF", content=t3),
+            ft.Tab(label="Préparation", content=t1),
+            ft.Tab(label="Saisie Pli", content=t2),
+            ft.Tab(label="Rapport PDF", content=t3),
         ],
         expand=True
     )
