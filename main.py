@@ -1,4 +1,6 @@
 import flet as ft
+# Rétrocompatibilité Flet colors
+ft.colors = ft.Colors
 import sqlite3
 import os
 from fpdf import FPDF
