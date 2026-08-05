@@ -1,5 +1,4 @@
 [app]
-
 # Nom de l'application sur le téléphone
 title = IGAM PlisExpress
 
