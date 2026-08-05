@@ -12,6 +12,7 @@ path = "main.py"
 
 [tool.flet.app]
 name = "IGAM PlisExpress"
+icon = "assets/logo.png"
 
 [tool.flet.android]
 icon = "assets/logo.png"
